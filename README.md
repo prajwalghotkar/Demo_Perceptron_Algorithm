@@ -24,3 +24,4 @@ If data is linearly separable, the perceptron will converge to a solution in a f
 If data is not linearly separable, the algorithm fails to converge and keeps updating weights indefinitely.
 
 ****In real situations, if the data cannot be separated by a straight line, the perceptron may keep changing its decision boundary again and again (never settling), or it may stop at a boundary that is not good and still makes mistakes in classifying some points.****
+
