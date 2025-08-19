@@ -19,6 +19,7 @@
   - **Linearly separable**: Two clusters of points separated by a straight line.
   - **Not linearly separable**: Concentric circles (inner circle = class 0, outer circle = class 1). No straight line can separate them.
 - What happens if data is not linearly separable?
+
 If data is linearly separable, the perceptron will converge to a solution in a finite number of steps.
 If data is not linearly separable, the algorithm fails to converge and keeps updating weights indefinitely.
 
